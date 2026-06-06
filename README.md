@@ -1,4 +1,4 @@
-readme = """# 🌍 WHO Global Disease Surveillance
+# 🌍 WHO Global Disease Surveillance
 
 Analysing global health indicators across 203 countries using the WHO Global Health Observatory (GHO) API, SQL, and Python.
 
@@ -82,15 +82,7 @@ streamlit run who_dashboard.py
 - Updated regularly by WHO
 
 ## 👩‍💻 Author
-**Your Name**  
+**Siya Tambe**  
 Second Year Engineering Student | Aspiring Data Analyst  
-[LinkedIn](#) | [GitHub](#)
+[LinkedIn](#) | [GitHub](#https://github.com/Siya-Tambe/WHO-global-disease-surveillance)
 """
-
-with open("/content/README.md", "w") as f:
-    f.write(readme)
-
-print("✅ README created!")
-
-from google.colab import files
-files.download('/content/README.md')
