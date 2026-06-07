@@ -1,5 +1,7 @@
 # 🌍 WHO Global Disease Surveillance
 
+![WHO Global Disease Surveillance Dashboard](dashboard_preview.png)
+
 Analysing global health indicators across 203 countries using the WHO Global Health Observatory (GHO) API, SQL, and Python.
 
 ## 📌 Project Overview
@@ -40,6 +42,7 @@ This project fetches live data from the WHO API, stores it in a SQLite database,
 - CTEs
 
 ## 📁 Project Structure
+```
 who-global-disease-surveillance/
 ├── who_global_disease_surveillance.ipynb  # Main notebook
 ├── who_dashboard.py                       # Streamlit app
@@ -49,8 +52,10 @@ who-global-disease-surveillance/
 ├── india_vs_global.png                    # India vs global comparison
 ├── india_trend.png                        # India health trends
 └── diabetes_region.png                    # Diabetes by WHO region
+```
 
 ## 📈 Visualisations
+
 ### Life Expectancy World Map
 ![World Map](world_map.png)
 
@@ -66,7 +71,7 @@ who-global-disease-surveillance/
 ## 🚀 How to Run
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/who-global-disease-surveillance
+git clone https://github.com/Siya-Tambe/WHO-global-disease-surveillance
 
 # Install dependencies
 pip install pandas matplotlib geopandas plotly streamlit requests sqlite3 pycountry
@@ -84,5 +89,5 @@ streamlit run who_dashboard.py
 ## 👩‍💻 Author
 **Siya Tambe**  
 Second Year Engineering Student | Aspiring Data Analyst  
-[LinkedIn](#) | [GitHub](#https://github.com/Siya-Tambe/WHO-global-disease-surveillance)
-"""
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siya-t-7375b7378/) &nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Siya-Tambe/WHO-global-disease-surveillance)
